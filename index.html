@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ms+Madi&display=swap" rel="stylesheet">
+    <title>Codificador</title>
+</head>
+<body>
+         <header>
+                <h1 class="titulo"> Codificador </h1>
+                <img src="imagens/logo.png" alt="logo da Alura" class="logo">
+          </header>
+     <main>
+            <p class="informaçao" >Apenas letras miniculas e sem acento! </p>
+            <textarea class="quadro-texto" cols="40" rows="6" placeholder="digite seu texto"></textarea>
+        <div class="botoes">
+            <button class="encriptar" onclick ="btncriptografar()">Codificar</button>
+            <button class="desencriptar" onclick ="btndescriptografar()">Decodificar</button>
+        </div>
+        <div>
+            <textarea class="quadro-resposta" cols="40" rows="6"></textarea>
+            <button class="copiar" onclick="btntextocopiado()">copiar</button>
+        </div>
+     </main>
+
+     <footer class="rodape">
+        <p class="criacao">Criado por Felipe roieski da silva para o challange de ONE (Oracle Next Education) em parceria da Alura</p>
+     </footer>
+     <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
